@@ -1,51 +1,97 @@
-/* Mengatur font dan background dasar */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f7f6;
-    color: #333;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #0f172a;
+    color: #e2e8f0;
     margin: 0;
     padding: 0;
     line-height: 1.6;
 }
 
-/* Bagian Header atas */
 header {
-    background-color: #24292e;
-    color: white;
+    background-color: #1e293b;
+    border-bottom: 3px solid #38bdf8;
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 2.5rem 1rem;
 }
 
 header h1 {
     margin: 0;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    color: #38bdf8;
+    letter-spacing: 1px;
 }
 
-/* Pembungkus konten utama */
+header p {
+    color: #94a3b8;
+    margin-top: 8px;
+}
+
 main {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 0 15px;
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 0 20px;
 }
 
-/* Tampilan kartu (*card*) untuk setiap seksi */
 .card {
-    background: white;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #1e293b;
+    padding: 24px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 .card h2 {
-    color: #0366d6;
+    color: #38bdf8;
     margin-top: 0;
+    border-bottom: 1px solid #334155;
+    padding-bottom: 10px;
 }
 
-/* Bagian Footer bawah */
+.item {
+    margin-bottom: 15px;
+}
+
+.item h3 {
+    margin: 10px 0 5px 0;
+    color: #f1f5f9;
+}
+
+.item p {
+    margin: 0;
+    color: #cbd5e1;
+}
+
+.tournament-list {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.badge {
+    background-color: #0284c7;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+li strong {
+    color: #38bdf8;
+}
+
 footer {
     text-align: center;
-    padding: 15px;
-    color: #666;
+    padding: 20px;
+    color: #64748b;
     font-size: 0.9rem;
-}
+    }
